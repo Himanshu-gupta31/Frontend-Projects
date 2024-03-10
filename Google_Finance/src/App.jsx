@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Components/Header'
 import Theme from './Components/Theme'
+import Market from './Components/Market'
+import Table from './Components/Table'
 
 
 function App() {
@@ -13,6 +15,9 @@ function App() {
     <>
     <Header/>
     <Theme/>
+    <Market/>
+    <Table/>
+    
     </>
   )
 }

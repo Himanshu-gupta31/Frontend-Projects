@@ -1,13 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-function Market({name}) {
+function Market({ name }) {
   return (
     <>
-    <div className=''>Compare Market</div>
-    <p className='ml-2rem'>{name}</p>
-    </>
+      <div className='text-center ml-2 hover:bg-slate-100 pl-2 pr-2 mt-2'>
     
-  )
+        <button className='rounded-lg p-2 '>{name}</button>
+      </div>
+    </>
+  );
 }
 
-export default Market
+export default Market;
