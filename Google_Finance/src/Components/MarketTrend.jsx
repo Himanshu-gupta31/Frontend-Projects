@@ -1,11 +1,19 @@
 import React from 'react'
+import MarketTrendButton from './MarketTrendButton'
 
-function MarketTrend({Trend}) {
+function MarketTrend() {
   return (
     <>
     <div className='w-[23rem] h-[10rem] border border-gray-300 mt-[1rem] rounded-lg'>
         <h2 className='mt-[0.5rem] ml-[1rem] mb-[0.5rem] '>Market Trends</h2>
-        <button className='border border-gray-300 w-auto p-[0.4rem] rounded-2xl text-xs ml-[1rem]' >{Trend}</button>
+        <MarketTrendButton Trend="Market indexes"/>
+        <MarketTrendButton Trend="Most active"/>
+        <MarketTrendButton Trend="Gainers"/>
+        <MarketTrendButton Trend="Losers"/>
+        <MarketTrendButton Trend="Climate leaders"/>
+        <MarketTrendButton Trend="Cryto"/>
+        <MarketTrendButton Trend="Currencies"/>
+
     </div>
     </>
   )

@@ -25,7 +25,7 @@ function Table() {
 </div>
 <div className='flex flex-col'>
 <Portfolio/>
-<MarketTrend Trend="Market indexes"/>
+<MarketTrend/>
 
 </div>
 </div>
